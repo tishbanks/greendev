@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ----------- ANIMATIONS PERSONNALISÉES ----------- */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 12s ease infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* ----------- ROOT ET ACCESSIBILITÉ ----------- */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ----------- GLOBAL ----------- */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ----------- LIENS ----------- */
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #4f9b7e; /* vert GreenDev + hover doux */
+}
+
+/* ----------- TITRES ----------- */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

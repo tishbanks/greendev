@@ -1,0 +1,84 @@
+{
+    "site": {
+      "title": "Site internet sur mesure",
+      "intro": "Nous concevons des sites web personnalisés, rapides, accessibles, pensés pour l’impact environnemental et l’efficacité SEO.",
+      "features": [
+        "Conception graphique adaptée à votre image",
+        "Développement performant et éco-responsable",
+        "Compatible avec tous les écrans",
+        "Optimisation SEO dès la conception",
+        "Interface simple pour gérer vos contenus"
+      ]
+    },
+    "api": {
+      "title": "Plateforme & API sur-mesure",
+      "intro": "Nous développons des solutions techniques qui relient vos outils, structurent vos flux de données et automatisent vos processus.",
+      "features": [
+        "Création d’API REST ou GraphQL",
+        "Connexion avec des outils existants (CRM, ERP, mailing)",
+        "Sécurité et gestion des accès",
+        "Infrastructure scalable et maintenable"
+      ]
+    },
+    "mobile": {
+      "title": "Administration mobile",
+      "intro": "Une interface de gestion pensée pour un usage sur smartphone : intuitive, rapide, et toujours accessible.",
+      "features": [
+        "Design mobile-first",
+        "Fonctionnalités essentielles toujours disponibles",
+        "Support PWA (utilisable comme une app)",
+        "Tableau de bord synthétique"
+      ]
+    },
+    "data": {
+      "title": "Gestionnaire de données",
+      "intro": "Pilotez vos données avec des tableaux de bord clairs et des outils d’analyse sur-mesure.",
+      "features": [
+        "Visualisation temps réel",
+        "Dashboards interactifs et filtrables",
+        "Exports Excel, PDF ou JSON",
+        "Accès multi-utilisateurs avec permissions"
+      ]
+    },
+    "clients": {
+      "title": "Espace clients & réservations",
+      "intro": "Offrez à vos utilisateurs une expérience fluide et sécurisée pour gérer leurs réservations, paiements et données.",
+      "features": [
+        "Portail client personnalisé",
+        "Réservation et paiement en ligne",
+        "Historique, notifications et rappels",
+        "Connexion possible avec votre CRM ou outil de facturation"
+      ]
+    },
+    "audit": {
+      "title": "Audit technique & éco-conception",
+      "intro": "Nous analysons votre site ou application existante pour détecter les faiblesses techniques, les freins à la performance ou à l’accessibilité, et proposer un plan d’amélioration.",
+      "features": [
+        "Analyse de la performance (Lighthouse)",
+        "Analyse de l’impact carbone (GreenIT)",
+        "Audit SEO & structure de contenus",
+        "Recommandations claires & priorisées"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance & évolutions continues",
+      "intro": "Nous vous accompagnons sur la durée pour garantir la stabilité, la sécurité et l’évolution de votre projet numérique.",
+      "features": [
+        "Sauvegardes régulières et monitoring",
+        "Mises à jour logicielles et de sécurité",
+        "Ajout de nouvelles fonctionnalités au fil du temps",
+        "Support réactif en cas de besoin"
+      ]
+    },
+    "seo": {
+      "title": "Stratégie de contenu & SEO",
+      "intro": "Nous vous aidons à structurer, rédiger et optimiser vos contenus pour améliorer votre référencement naturel.",
+      "features": [
+        "Analyse des mots-clés et intentions de recherche",
+        "Structuration logique des pages",
+        "Conseils rédactionnels adaptés à votre audience",
+        "Optimisation technique du SEO (balises, meta, accessibilité)"
+      ]
+    }
+  }
+  
