@@ -1,6 +1,5 @@
 deployment:
   tasks:
     - export NODE_ENV=production
-    - /opt/alt/alt-nodejs18/root/usr/bin/npm install
-    - /opt/alt/alt-nodejs18/root/usr/bin/npm run build
+    - /opt/alt/alt-nodejs18/root/usr/bin/npm install --omit=dev
     - /opt/alt/alt-nodejs18/root/usr/bin/node server/index.js

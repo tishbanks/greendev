@@ -1,13 +1,43 @@
+import express from "express";
+import dotenv from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
+import sendMail from "./utils/sendMail.js";
 
-import express from 'express'
+dotenv.config();
+const app = express();
+app.use(express.json());
 
-const app = express()
-app.use(express.json())
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-app.get('/api/test', (req, res) => {
-  res.json({ message: 'API OK' })
-})
+// Sert les fichiers Vite buildés (React)
+app.use(express.static(path.join(__dirname, "../dist")));
 
-app.listen(3001, () => {
-  console.log('✅ API en écoute sur http://localhost:3001')
-})
+// API d'envoi de mail
+app.post("/api/send-contact", async (req, res) => {
+  try {
+    console.log("🔔 /api/send-contact");
+    await sendMail({
+      to: 'contact@greendevlover.com',
+      subject: "Test depuis GreenDev",
+      text: "Ceci est un test",
+      html: "<p>Ceci est un <strong>test</strong></p>",
+    });
+    res.status(200).send("Mail envoyé !");
+  } catch (err) {
+    console.error("❌ Erreur:", err);
+    res.status(500).send("Erreur serveur : " + err.message);
+  }
+});
+
+// Pour toutes les routes SPA (React)
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../dist/index.html"));
+});
+
+// Lancement du serveur
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`✅ Serveur sur http://localhost:${PORT}`);
+});
