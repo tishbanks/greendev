@@ -15,7 +15,7 @@ export default function ParallaxSection({ imageUrl, children, height = '70vh' })
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden"
+      className="relative overflow-hidden min-h-[400px] md:min-h-[70vh]"
       style={{ height }}
     >
       {/* Parallax background */}
