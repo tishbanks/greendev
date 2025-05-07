@@ -4,8 +4,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#6EAD8C] h-[320px] text-white py-10 px-6 text-center text-sm font-inter rounded-tl-2xl">
-      <div className="max-w-4xl mx-auto">
+    <footer className="bg-[#6EAD8C] text-white py-10 px-6 text-center text-sm font-inter rounded-tl-2xl">
+      <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         <Paragraph className="opacity-90 text-white">
           &copy; {new Date().getFullYear()} LH Green Dev. Tous droits réservés.
         </Paragraph>
@@ -23,16 +23,14 @@ export default function Footer() {
           </a>
         </Paragraph>
 
-        <div className="flex justify-center">
-          <motion.img
-            src="/logo.png"
-            alt="Logo"
-            className="opacity-90 filter invert brightness-0 w-[200px]"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-          />
-        </div>
+        <motion.img
+          src="/logo.png"
+          alt="Logo LH Green Dev"
+          className="opacity-90 filter invert brightness-0 w-[160px] sm:w-[200px] mt-4"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+        />
       </div>
     </footer>
   )
