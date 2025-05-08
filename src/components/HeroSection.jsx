@@ -52,7 +52,7 @@ export default function HeroSection() {
           {showSecondary && (
             <Subtitle>
               <Typewriter
-                text="Pensé pour durer. Créé à votre image."
+                text="Pensé pour durer. Créé pour vous."
                 speed={30}
                 hideCursor={true}
               />
