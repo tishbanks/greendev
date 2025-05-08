@@ -1,0 +1,153 @@
+{
+    "hero.mojo": [
+      "Un web éthique, utile et sur mesure.",
+      "Des solutions numériques qui ont du sens.",
+      "Développement responsable et design soigné.",
+      "Chaque pixel compte. Chaque action aussi.",
+      "Vos idées, notre matière première.",
+      "Des outils conçus pour durer, pas pour distraire.",
+      "Un code propre. Un impact clair.",
+      "Du sens, de la forme, et de la fluidité.",
+      "Une interface pensée pour vos utilisateurs.",
+      "Le numérique au service de l’humain."
+    ],
+    "hero.fallbackTitle": "Solutions web éthiques et écoconçues",
+    "hero.subtitle": "Pensé pour durer. Créé pour vous.",
+    "hero.cta": "Discutons de votre projet",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "why": "Pourquoi nous?",
+      "contact": "Contact",
+      "language": "Langues"
+    },
+        "parallax": {
+          "title": "Un site, un souffle",
+          "description": "Votre univers en ligne, fluide et naturel. Chaque élément est pensé pour vous.",
+          "default": "Green Dev conçoit des solutions web performantes, durables et sur mesure. Notre approche allie efficacité technique, éco-conception et stratégie digitale."
+        },
+        "services": {
+              "title": "Services Web sur mesure – GreenDev",
+              "more": "En savoir plus →",
+              "discover": "Découvrir le service {{title}}",
+              "subtitle": "Développement, plateformes, éco-conception, mobile & référencement naturel",
+              "intro": "GreenDev vous accompagne dans la réalisation de solutions digitales robustes, durables et performantes : sites web, plateformes connectées, outils mobiles, espaces clients ou encore stratégie SEO. Chaque service est pensé pour répondre à vos enjeux métier et améliorer votre visibilité en ligne.",
+              "list": [
+                {
+                  "title": "Site internet sur mesure",
+                  "description": "Nous concevons des sites web à votre image : rapides, accessibles, responsives, et optimisés pour le référencement naturel (SEO). Chaque projet est pensé pour mettre en valeur votre activité, vos services, et faciliter la navigation de vos utilisateurs.",
+                  "iconKey": "site",
+                  "slug": "site"
+                },
+                {
+                  "title": "Plateforme & API",
+                  "description": "Vous avez besoin de connecter des outils entre eux ou de structurer des flux métiers complexes ? Nous développons des plateformes web et des APIs sur-mesure pour automatiser vos processus internes et améliorer la cohérence de vos données.",
+                  "iconKey": "api",
+                  "slug": "api"
+                },
+                {
+                  "title": "Administration mobile",
+                  "description": "Gérez votre activité en mobilité : publications, réservations, mises à jour… Notre interface d’administration est pensée pour un usage fluide sur smartphone, avec les fonctionnalités essentielles à portée de main.",
+                  "iconKey": "mobile",
+                  "slug": "mobile"
+                },
+                {
+                  "title": "Gestionnaire de données",
+                  "description": "Nous mettons en place des tableaux de bord interactifs vous permettant de visualiser, filtrer et analyser vos données en temps réel. Ces outils sont personnalisés selon vos indicateurs clés (KPI), pour une prise de décision éclairée.",
+                  "iconKey": "data",
+                  "slug": "data"
+                },
+                {
+                  "title": "Espace clients & réservations",
+                  "description": "Offrez à vos utilisateurs un espace personnel pour réserver, payer en ligne, gérer leurs informations et recevoir des notifications. Une interface moderne, sécurisée et conçue pour renforcer la relation client.",
+                  "iconKey": "clients",
+                  "slug": "clients"
+                },
+                {
+                  "title": "Audit technique & éco-conception",
+                  "description": "Nous analysons votre site existant pour identifier les points de friction techniques, d’accessibilité et de performance environnementale. Vous repartez avec une feuille de route concrète.",
+                  "iconKey": "site",
+                  "slug": "audit"
+                },
+                {
+                  "title": "Maintenance & évolutions continues",
+                  "description": "Nous assurons la stabilité, les sauvegardes, les mises à jour et les ajouts fonctionnels de votre solution. Idéal pour rester serein dans le temps.",
+                  "iconKey": "mobile",
+                  "slug": "maintenance"
+                },
+                {
+                  "title": "Stratégie de contenu & SEO",
+                  "description": "Nous structurons vos contenus et vous aidons à les optimiser pour améliorer votre visibilité et votre impact auprès de votre audience.",
+                  "iconKey": "data",
+                  "slug": "seo"
+                }
+              ]
+          },
+          "why": {
+  "title": "Pourquoi choisir Green Dev ?",
+  "titleSeo": "Pourquoi choisir GreenDev ? - Services éthiques & performants",
+  "metaDescription": "GreenDev conçoit des services numériques responsables : sobriété, performance, accessibilité et accompagnement sur mesure.",
+  "seoText": "Green Dev conçoit des interfaces durables, performantes et éthiques. Nos sites sont pensés pour un web plus sobre, plus rapide et plus utile.",
+  "points": [
+    {
+      "title": "♻️ Sobriété numérique",
+      "description": "Sites et applis rapides, légers et conçus pour limiter leur consommation.",
+      "bgColor": "#F3EAC2"
+    },
+    {
+      "title": "☁️ Hébergement vert",
+      "description": "Infrastructures éco-responsables alimentées par énergie renouvelable.",
+      "bgColor": "#A8D5BA"
+    },
+    {
+      "title": "🔗 APIs sur-mesure",
+      "description": "Interfaces qui relient vos services et automatisent les échanges.",
+      "bgColor": "#F3EAC2"
+    },
+    {
+      "title": "📊 Interfaces interactives",
+      "description": "Tableaux de bord clairs pour suivre vos données en temps réel.",
+      "bgColor": "#C9D6FF"
+    },
+    {
+      "title": "🔍 Visibilité renforcée",
+      "description": "Référencement intégré dès la conception pour gagner en audience.",
+      "bgColor": "#FFDBB5"
+    },
+    {
+      "title": "⏱️ Accompagnement continu",
+      "description": "Support et évolutions régulières pour garantir performance et longévité.",
+      "bgColor": "#B8E0E5"
+    }
+  ]
+},
+
+"contact": {
+  "title": "Contactez-moi",
+  "subtitle": "Un projet, une question, une idée à partager ? Écrivez-moi et je vous répondrai rapidement 🌿",
+  "fields": {
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message"
+  },
+  "send": "Envoyer",
+  "loading": "Envoi en cours...",
+  "thankyou": "Merci pour votre message ! 🙏",
+  "success": "🌿 Message bien envoyé, merci !",
+  "errors": {
+    "invalid": "Merci de remplir tous les champs correctement.",
+    "failed": "❌ Erreur lors de l'envoi.",
+    "network": "❌ Erreur réseau."
+  }
+},
+"footer": {
+  "rights": "Tous droits réservés.",
+  "message": "Site conçu avec 🌿 et passion. Hébergement local, design sobre et impact réduit."
+}
+
+
+
+      
+      
+  }
+  

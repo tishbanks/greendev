@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "mojo": [
+      "Una web ética, útil y a medida.",
+      "Soluciones digitales con sentido.",
+      "Desarrollo responsable y diseño cuidado.",
+      "Cada píxel cuenta. Cada acción también.",
+      "Tus ideas, nuestra materia prima.",
+      "Herramientas pensadas para durar, no para distraer.",
+      "Código limpio. Impacto claro.",
+      "Sentido, forma y fluidez.",
+      "Una interfaz pensada para tus usuarios.",
+      "Lo digital al servicio del ser humano."
+    ],
+    "fallbackTitle": "Soluciones web éticas y ecodiseñadas",
+    "subtitle": "Pensado para durar. Creado para ti.",
+    "cta": "Hablemos de tu proyecto"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "why": "¿Por qué nosotros?",
+    "contact": "Contacto",
+    "language": "Idiomas"
+  },
+  "parallax": {
+    "title": "Un sitio, un soplo",
+    "description": "Tu universo en línea, fluido y natural. Cada elemento está pensado para ti.",
+    "default": "Green Dev diseña soluciones web eficaces, sostenibles y a medida. Nuestro enfoque combina eficiencia técnica, ecodiseño y estrategia digital."
+  },
+  "services": {
+    "title": "Servicios web a medida – GreenDev",
+    "more": "Saber más →",
+    "discover": "Descubrir el servicio {{title}}",
+    "subtitle": "Desarrollo, plataformas, ecodiseño, móvil y SEO",
+    "intro": "GreenDev te acompaña en la creación de soluciones digitales robustas, sostenibles y eficientes: sitios web, plataformas conectadas, herramientas móviles, espacios para clientes o estrategia SEO. Cada servicio está diseñado para responder a tus retos empresariales y mejorar tu visibilidad online.",
+    "list": [
+      {
+        "title": "Sitio web a medida",
+        "description": "Creamos sitios web a tu imagen: rápidos, accesibles, adaptables y optimizados para el SEO. Cada proyecto está diseñado para destacar tu actividad y facilitar la navegación de tus usuarios.",
+        "iconKey": "site",
+        "slug": "site"
+      },
+      {
+        "title": "Plataforma y API",
+        "description": "¿Necesitas conectar herramientas o estructurar flujos complejos? Desarrollamos plataformas web y APIs a medida para automatizar procesos internos y garantizar la coherencia de los datos.",
+        "iconKey": "api",
+        "slug": "api"
+      },
+      {
+        "title": "Administración móvil",
+        "description": "Gestiona tu actividad desde el móvil: publicaciones, reservas, actualizaciones… Nuestra interfaz está diseñada para un uso fluido desde el smartphone.",
+        "iconKey": "mobile",
+        "slug": "mobile"
+      },
+      {
+        "title": "Gestión de datos",
+        "description": "Creamos paneles interactivos para visualizar, filtrar y analizar tus datos en tiempo real. Herramientas personalizadas según tus indicadores clave.",
+        "iconKey": "data",
+        "slug": "data"
+      },
+      {
+        "title": "Espacio cliente y reservas",
+        "description": "Ofrece a tus usuarios un espacio personal para reservar, pagar en línea, gestionar su información y recibir notificaciones. Una interfaz moderna y segura para reforzar la relación con tus clientes.",
+        "iconKey": "clients",
+        "slug": "clients"
+      },
+      {
+        "title": "Auditoría técnica y ecodiseño",
+        "description": "Analizamos tu sitio actual para detectar problemas técnicos, de accesibilidad y de rendimiento ambiental. Obtendrás una hoja de ruta clara.",
+        "iconKey": "site",
+        "slug": "audit"
+      },
+      {
+        "title": "Mantenimiento y mejoras continuas",
+        "description": "Nos encargamos de la estabilidad, copias de seguridad, actualizaciones y evoluciones de tu solución. Ideal para una tranquilidad a largo plazo.",
+        "iconKey": "mobile",
+        "slug": "maintenance"
+      },
+      {
+        "title": "Estrategia de contenidos y SEO",
+        "description": "Estructuramos tus contenidos y te ayudamos a optimizarlos para mejorar tu visibilidad y tu impacto.",
+        "iconKey": "data",
+        "slug": "seo"
+      }
+    ]
+  },
+  "why": {
+  "title": "¿Por qué elegir Green Dev?",
+  "titleSeo": "¿Por qué elegir GreenDev? – Servicios éticos y eficientes",
+  "metaDescription": "GreenDev diseña servicios digitales responsables: sobriedad, rendimiento, accesibilidad y acompañamiento personalizado.",
+  "seoText": "Green Dev diseña interfaces sostenibles, eficientes y éticas. Nuestros sitios están pensados para un web más limpio, rápido y útil.",
+  "points": [
+    {
+      "title": "♻️ Sobriedad digital",
+      "description": "Sitios y aplicaciones rápidos y ligeros, diseñados para reducir el consumo energético.",
+      "bgColor": "#F3EAC2"
+    },
+    {
+      "title": "☁️ Alojamiento verde",
+      "description": "Infraestructuras eco-responsables con energía renovable.",
+      "bgColor": "#A8D5BA"
+    },
+    {
+      "title": "🔗 APIs personalizadas",
+      "description": "Interfaces que conectan tus servicios y automatizan procesos.",
+      "bgColor": "#F3EAC2"
+    },
+    {
+      "title": "📊 Interfaces interactivas",
+      "description": "Paneles de control claros para seguir tus datos en tiempo real.",
+      "bgColor": "#C9D6FF"
+    },
+    {
+      "title": "🔍 Visibilidad reforzada",
+      "description": "SEO integrado desde el inicio para ganar audiencia.",
+      "bgColor": "#FFDBB5"
+    },
+    {
+      "title": "⏱️ Acompañamiento continuo",
+      "description": "Soporte y mejoras regulares para garantizar rendimiento y longevidad.",
+      "bgColor": "#B8E0E5"
+    }
+  ]
+},
+
+"contact": {
+  "title": "Contáctame",
+  "subtitle": "¿Un proyecto, una pregunta, una idea para compartir? Escríbeme y te responderé pronto 🌿",
+  "fields": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje"
+  },
+  "send": "Enviar",
+  "loading": "Enviando...",
+  "thankyou": "¡Gracias por tu mensaje! 🙏",
+  "success": "🌿 Mensaje enviado con éxito, ¡gracias!",
+  "errors": {
+    "invalid": "Por favor, completa todos los campos correctamente.",
+    "failed": "❌ Error al enviar.",
+    "network": "❌ Error de red."
+  }
+},
+"footer": {
+  "rights": "Todos los derechos reservados.",
+  "message": "Sitio creado con 🌿 y pasión. Alojamiento local, diseño sobrio e impacto reducido."
+}
+
+
+
+}

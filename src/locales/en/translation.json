@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "mojo": [
+      "Ethical, useful, and tailor-made web.",
+      "Digital solutions that make sense.",
+      "Responsible development and refined design.",
+      "Every pixel matters. Every action too.",
+      "Your ideas, our raw material.",
+      "Tools built to last, not to distract.",
+      "Clean code. Clear impact.",
+      "Meaning, form, and fluidity.",
+      "An interface designed for your users.",
+      "Digital at the service of people."
+    ],
+    "fallbackTitle": "Ethical and eco-designed web solutions",
+    "subtitle": "Built to last. Created for you.",
+    "cta": "Let's talk about your project"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "why": "Why us?",
+    "contact": "Contact",
+    "language": "Languages"
+  },
+  "parallax": {
+    "title": "A website, a breath",
+    "description": "Your online universe, smooth and natural. Every element is crafted for you.",
+    "default": "Green Dev creates high-performance, sustainable, tailor-made web solutions. Our approach combines technical efficiency, eco-design, and digital strategy."
+  },
+  "services": {
+    "title": "Custom Web Services – GreenDev",
+    "more": "Learn more →",
+    "discover": "Discover the {{title}} service",
+    "subtitle": "Development, platforms, eco-design, mobile & SEO",
+    "intro": "GreenDev supports you in building robust, sustainable, and high-performing digital solutions: websites, connected platforms, mobile tools, client spaces, or SEO strategy. Each service is designed to meet your business challenges and improve your online visibility.",
+    "list": [
+      {
+        "title": "Custom Website",
+        "description": "We create websites that reflect your image: fast, accessible, responsive, and SEO-optimized. Each project is designed to showcase your business, your services, and ease user navigation.",
+        "iconKey": "site",
+        "slug": "site"
+      },
+      {
+        "title": "Platform & API",
+        "description": "Need to connect tools or structure complex workflows? We develop custom web platforms and APIs to automate internal processes and ensure consistent data.",
+        "iconKey": "api",
+        "slug": "api"
+      },
+      {
+        "title": "Mobile Administration",
+        "description": "Manage your activity on the go: posts, bookings, updates... Our admin interface is optimized for mobile use with essential features at your fingertips.",
+        "iconKey": "mobile",
+        "slug": "mobile"
+      },
+      {
+        "title": "Data Management Dashboard",
+        "description": "We set up interactive dashboards to visualize, filter, and analyze your data in real time. These tools are customized to your KPIs for informed decisions.",
+        "iconKey": "data",
+        "slug": "data"
+      },
+      {
+        "title": "Client Space & Booking",
+        "description": "Offer your users a personal space to book, pay online, manage their info, and receive notifications. A modern, secure interface to strengthen customer relations.",
+        "iconKey": "clients",
+        "slug": "clients"
+      },
+      {
+        "title": "Technical Audit & Eco-Design",
+        "description": "We analyze your existing site to identify technical, accessibility, and environmental performance issues. You'll receive a clear action plan.",
+        "iconKey": "site",
+        "slug": "audit"
+      },
+      {
+        "title": "Maintenance & Continuous Improvement",
+        "description": "We handle stability, backups, updates, and new features for your solution. Ideal for long-term peace of mind.",
+        "iconKey": "mobile",
+        "slug": "maintenance"
+      },
+      {
+        "title": "Content Strategy & SEO",
+        "description": "We structure your content and help you optimize it to boost your visibility and impact with your audience.",
+        "iconKey": "data",
+        "slug": "seo"
+      }
+    ]
+  },
+  "why": {
+  "title": "Why choose Green Dev?",
+  "titleSeo": "Why choose GreenDev? – Ethical & high-performing services",
+  "metaDescription": "GreenDev designs responsible digital services: efficiency, performance, accessibility, and tailored support.",
+  "seoText": "Green Dev designs sustainable, high-performance, and ethical interfaces. Our sites are built for a cleaner, faster, and more meaningful web.",
+  "points": [
+    {
+      "title": "♻️ Digital Sobriety",
+      "description": "Fast, lightweight apps and sites designed to reduce energy use.",
+      "bgColor": "#F3EAC2"
+    },
+    {
+      "title": "☁️ Green Hosting",
+      "description": "Eco-friendly infrastructure powered by renewable energy.",
+      "bgColor": "#A8D5BA"
+    },
+    {
+      "title": "🔗 Custom APIs",
+      "description": "Interfaces to connect your tools and automate data flows.",
+      "bgColor": "#F3EAC2"
+    },
+    {
+      "title": "📊 Interactive Dashboards",
+      "description": "Clear interfaces to monitor your data in real time.",
+      "bgColor": "#C9D6FF"
+    },
+    {
+      "title": "🔍 Enhanced Visibility",
+      "description": "SEO baked in from day one to increase your reach.",
+      "bgColor": "#FFDBB5"
+    },
+    {
+      "title": "⏱️ Continuous Support",
+      "description": "Ongoing maintenance and updates for long-term performance.",
+      "bgColor": "#B8E0E5"
+    }
+  ]
+},
+
+"contact": {
+  "title": "Contact me",
+  "subtitle": "A project, a question, an idea to share? Send me a message and I’ll get back to you quickly 🌿",
+  "fields": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message"
+  },
+  "send": "Send",
+  "loading": "Sending...",
+  "thankyou": "Thank you for your message! 🙏",
+  "success": "🌿 Message sent successfully, thank you!",
+  "errors": {
+    "invalid": "Please fill out all fields correctly.",
+    "failed": "❌ Error while sending.",
+    "network": "❌ Network error."
+  }
+},
+"footer": {
+  "rights": "All rights reserved.",
+  "message": "Website crafted with 🌿 and passion. Local hosting, minimal design, reduced impact."
+}
+
+
+
+}
