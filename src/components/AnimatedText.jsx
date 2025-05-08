@@ -1,6 +1,6 @@
 // components/AnimatedText.jsx
 import React from 'react'
-import Typewriter from './TypeWriter'
+import Typewriter from './Typewriter'
 import ScrambleText from './ScrambleText'
 import BubleText from './BubleText'
 import Pop3DText from './Pop3DText'

@@ -3,7 +3,7 @@ import AnimatedText from './AnimatedText'
 import { HeroTitle, Subtitle, ButtonText } from './TypographyGuide'
 import mojo from '../data/mojo.json'
 import { motion, AnimatePresence } from 'framer-motion'
-import Typewriter from './TypeWriter'
+import Typewriter from './Typewriter'
 
 const effects = ['typewriter', 'scramble', 'buble', 'pop']
 
