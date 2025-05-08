@@ -1,17 +1,20 @@
 import { Paragraph } from './TypographyGuide'
 import { motion } from 'framer-motion'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer className="bg-[#6EAD8C] text-white py-10 px-6 text-center text-sm font-inter rounded-tl-2xl">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         <Paragraph className="opacity-90 text-white">
-          &copy; {new Date().getFullYear()} LH Green Dev. Tous droits réservés.
+          &copy; {new Date().getFullYear()} Green Dev. {t('footer.rights')}
         </Paragraph>
 
         <Paragraph className="opacity-90 text-white">
-          Site conçu avec 🌿 et passion. Hébergement local, design sobre et impact réduit.
+          {t('footer.message')}
         </Paragraph>
 
         <Paragraph className="opacity-90">

@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+
 import {
   CheckCircle,
   Link as LinkIcon,
@@ -24,6 +26,7 @@ export default function AnimatedServiceCard({
   delay = 0,
 }) {
   const Icon = icons[iconKey]
+    const { t } = useTranslation()
 
   if (!Icon) {
     console.error(
@@ -46,7 +49,8 @@ export default function AnimatedServiceCard({
       <Link
         to={`/services/${slug}`}
         className="block bg-white border border-gray-100 rounded-2xl p-6 shadow-md hover:shadow-lg hover:scale-[1.01] transition-transform duration-300 group"
-        aria-label={`Découvrir le service ${title}`}
+        aria-label={t('services.discover', { title })}
+
       >
         <div className="flex items-start gap-5">
           <div className="flex-shrink-0 bg-greendev-light p-3 rounded-xl">
@@ -63,7 +67,8 @@ export default function AnimatedServiceCard({
         </div>
 
         <div className="mt-4 text-sm font-medium text-greendev hover:text-greendev-accent">
-          En savoir plus →
+        {t('services.more')}
+
         </div>
       </Link>
     </motion.div>

@@ -1,6 +1,8 @@
+// tailwind.config.mjs
 
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
+  darkMode: 'class', // ✅ active le dark mode via une classe 'dark'
   theme: {
     extend: {
       fontFamily: {

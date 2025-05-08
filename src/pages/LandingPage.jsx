@@ -7,8 +7,15 @@ import Footer from '../components/Footer'
 import FadeInSection from '../components/FadeInSection'
 import ParallaxSection from '../components/ParallaxSection'
 import ServicesSection from '../components/ServicesSection'
+import { useTranslation } from 'react-i18next'
+
 
 export default function LandingPage() {
+
+  const { t } = useTranslation()
+
+
+
   return (
     <div className="bg-black min-h-screen flex justify-center">
 
@@ -21,13 +28,19 @@ export default function LandingPage() {
         {/* ✅ Hero visible tout de suite */}
         <HeroSection />
 
-        {/* ✅ Parallax visible normalement après */}
-        <ParallaxSection imageUrl="/images/lehavre.jpg">
-          <h2 className="text-4xl font-bold mb-4">Un site, un souffle</h2>
-          <p className="text-lg">
-            Votre univers en ligne, fluide et naturel. Chaque élément est pensé pour vous.
-          </p>
-       </ParallaxSection>
+
+<ParallaxSection imageUrl="/images/lehavre.jpg">
+  <h2 className="text-4xl font-bold mb-4">{t('parallax.title')}</h2>
+  <p className="text-lg">{t('parallax.description')}</p>
+</ParallaxSection>
+
+
+
+
+
+
+
+
        <div id="services">
        <FadeInSection>
 
