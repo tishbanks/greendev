@@ -3,11 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Title, Subtitle, Paragraph, ButtonText } from './TypographyGuide'
 import toast from 'react-hot-toast'
 import { useTranslation } from 'react-i18next'
+import useIsDarkMode from '../hooks/useIsDarkMode'
 
 export default function ContactSection() {
   const { t } = useTranslation()
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
+
+  const isDark = useIsDarkMode()
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -63,8 +66,13 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="py-20 px-6 bg-gradient-to-b from-[#B8E0E5] to-white text-green-800">
-      <div className="max-w-xl mx-auto text-center relative z-10">
+<section
+  id="contact"
+  className="py-20 px-6 
+    bg-gradient-to-b from-[#B8E0E5] to-white 
+    dark:from-[#1a2b38] dark:to-[#1d352c] 
+    text-green-800 dark:text-white"
+>      <div className="max-w-xl mx-auto text-center relative z-10">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }}>
           <Title className="text-5xl sm:text-4xl mb-6 sm:mb-8">{t('contact.title')}</Title>
         </motion.div>

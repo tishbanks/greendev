@@ -2,10 +2,14 @@ import React, { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Title, Subtitle, Paragraph } from './TypographyGuide'
 import { useTranslation } from 'react-i18next'
+import useIsDarkMode from '../hooks/useIsDarkMode'
+
 
 export default function WhyUsSection() {
   const { t, i18n } = useTranslation()
   const points = t('why.points', { returnObjects: true })
+
+  const isDark = useIsDarkMode()
 
   useEffect(() => {
     document.title = t('why.titleSeo')
@@ -82,10 +86,9 @@ export default function WhyUsSection() {
     >
       {/* Background dynamique */}
       <motion.div
-        animate={{ backgroundColor: current.bgColor }}
+        animate={{ backgroundColor: isDark ? current.bgColorDark || current.bgColor : current.bgColor }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
         className="absolute inset-0 z-0"
-        style={{ willChange: 'background-color' }}
       />
 
       {/* Bloc sticky central */}

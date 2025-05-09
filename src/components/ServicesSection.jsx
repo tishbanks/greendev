@@ -14,7 +14,7 @@ export default function ServicesSection() {
 
   return (
     <main>
-      <section className="bg-gradient-to-b from-white to-[#F3EAC2] py-20 px-6" aria-labelledby="services-title">
+      <section className="bg-gradient-to-b from-white to-[#F3EAC2] py-20 px-6 dark:from-[#18352d] dark:via-[#132b25] dark:to-[#0b1f1c]" aria-labelledby="services-title">
         <div className="max-w-5xl mx-auto">
           <header className="text-center text-green-900 mb-12">
             <Title id="services-title">{t('services.title')}</Title>

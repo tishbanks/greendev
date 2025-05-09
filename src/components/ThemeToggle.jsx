@@ -34,7 +34,7 @@ export default function ThemeToggle() {
         />
 
         <motion.div
-          animate={{ x: dark ? 24 : 0 }}
+          animate={{ x: dark ? 20 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
           className="w-5 h-5 rounded-full bg-white flex items-center justify-center shadow-md relative z-10"
         >

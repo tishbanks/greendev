@@ -60,13 +60,13 @@ export default function Header() {
         animate={{ y: visible ? 0 : -80, opacity: visible ? 1 : 0 }}
         transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
         className={clsx(
-          'fixed top-0 left-0 w-full z-[9999] h-auto min-h-[52px] backdrop-blur-md border-b border-green-200 shadow-sm bg-white dark:bg-[#1A2C24] text-green-900 dark:text-white transition-transform duration-500 ease-in-out will-change-transform',
+          'fixed top-0 left-0 w-full z-[9999] h-auto min-h-[52px] backdrop-blur-md border-b border-green-200 shadow-sm bg-white  text-green-900 transition-transform duration-500 ease-in-out will-change-transform',
           visible ? 'pointer-events-auto' : 'pointer-events-none'
         )}
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="h-[80%]">
-            <Logo className="w-[160px] md:w-[200px]" fill="#1F3B2C" />
+            <Logo className="w-[160px] md:w-[200px]" />
           </div>
 
           <nav className="hidden md:flex space-x-8 text-sm font-poppins font-medium items-center">
@@ -198,7 +198,7 @@ export default function Header() {
               <img
                 src="/logo.png"
                 alt="Logo"
-                className="opacity-90 dark:invert w-[200px]"
+                className="opacity-90 filter invert brightness-0 w-[200px]"
               />
             </motion.div>
           </motion.nav>

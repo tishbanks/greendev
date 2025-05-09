@@ -94,7 +94,7 @@ export default function HeroSection() {
             <img
               src="/logo.png"
               alt="Logo de GreenDev"
-              className="w-[250px] bottom-0 dark:invert-0"
+              className="w-[250px] bottom-0 invert-0 dark:invert-0"
               loading="lazy"
             />
           </motion.div>
