@@ -94,32 +94,38 @@
     {
       "title": "♻️ Digital Sobriety",
       "description": "Fast, lightweight apps and sites designed to reduce energy use.",
-      "bgColor": "#F3EAC2"
+      "bgColor": "#F3EAC2",
+      "bgColorDark": "#1d352c"
     },
     {
       "title": "☁️ Green Hosting",
       "description": "Eco-friendly infrastructure powered by renewable energy.",
-      "bgColor": "#A8D5BA"
+      "bgColor": "#A8D5BA",
+      "bgColorDark": "#1e3b32"
     },
     {
       "title": "🔗 Custom APIs",
       "description": "Interfaces to connect your tools and automate data flows.",
-      "bgColor": "#F3EAC2"
+      "bgColor": "#F3EAC2",
+      "bgColorDark": "#253a30"
     },
     {
       "title": "📊 Interactive Dashboards",
       "description": "Clear interfaces to monitor your data in real time.",
-      "bgColor": "#C9D6FF"
+      "bgColor": "#C9D6FF",
+      "bgColorDark": "#1c263f"
     },
     {
       "title": "🔍 Enhanced Visibility",
       "description": "SEO baked in from day one to increase your reach.",
-      "bgColor": "#FFDBB5"
+      "bgColor": "#FFDBB5",
+      "bgColorDark": "#402c1a"
     },
     {
       "title": "⏱️ Continuous Support",
       "description": "Ongoing maintenance and updates for long-term performance.",
-      "bgColor": "#B8E0E5"
+      "bgColor": "#B8E0E5",
+      "bgColorDark": "#1a2b38"
     }
   ]
 },

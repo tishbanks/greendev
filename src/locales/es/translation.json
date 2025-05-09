@@ -94,32 +94,38 @@
     {
       "title": "♻️ Sobriedad digital",
       "description": "Sitios y aplicaciones rápidos y ligeros, diseñados para reducir el consumo energético.",
-      "bgColor": "#F3EAC2"
+      "bgColor": "#F3EAC2",
+      "bgColorDark": "#1d352c"
     },
     {
       "title": "☁️ Alojamiento verde",
       "description": "Infraestructuras eco-responsables con energía renovable.",
-      "bgColor": "#A8D5BA"
+      "bgColor": "#A8D5BA",
+      "bgColorDark": "#1e3b32"
     },
     {
       "title": "🔗 APIs personalizadas",
       "description": "Interfaces que conectan tus servicios y automatizan procesos.",
-      "bgColor": "#F3EAC2"
+      "bgColor": "#F3EAC2",
+      "bgColorDark": "#253a30"
     },
     {
       "title": "📊 Interfaces interactivas",
       "description": "Paneles de control claros para seguir tus datos en tiempo real.",
-      "bgColor": "#C9D6FF"
+      "bgColor": "#C9D6FF",
+      "bgColorDark": "#1c263f"
     },
     {
       "title": "🔍 Visibilidad reforzada",
       "description": "SEO integrado desde el inicio para ganar audiencia.",
-      "bgColor": "#FFDBB5"
+      "bgColor": "#FFDBB5",
+      "bgColorDark": "#402c1a"
     },
     {
       "title": "⏱️ Acompañamiento continuo",
       "description": "Soporte y mejoras regulares para garantizar rendimiento y longevidad.",
-      "bgColor": "#B8E0E5"
+      "bgColor": "#B8E0E5",
+      "bgColorDark": "#1a2b38"
     }
   ]
 },

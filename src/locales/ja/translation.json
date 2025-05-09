@@ -94,32 +94,38 @@
         {
           "title": "♻️ デジタル・ソブリエティ",
           "description": "高速かつ軽量、消費エネルギーを抑える設計のサイトとアプリ。",
-          "bgColor": "#F3EAC2"
+          "bgColor": "#F3EAC2",
+          "bgColorDark": "#1d352c"
         },
         {
           "title": "☁️ グリーンホスティング",
           "description": "再生可能エネルギーで運用される環境に優しいインフラ。",
-          "bgColor": "#A8D5BA"
+          "bgColor": "#A8D5BA",
+          "bgColorDark": "#1e3b32"
         },
         {
           "title": "🔗 カスタムAPI",
           "description": "サービス連携とデータフローの自動化を実現するインターフェース。",
-          "bgColor": "#F3EAC2"
+          "bgColor": "#F3EAC2",
+          "bgColorDark": "#253a30"
         },
         {
           "title": "📊 インタラクティブダッシュボード",
           "description": "リアルタイムにデータを監視できる明快なインターフェース。",
-          "bgColor": "#C9D6FF"
+          "bgColor": "#C9D6FF",
+          "bgColorDark": "#1c263f"
         },
         {
           "title": "🔍 可視性の向上",
           "description": "SEOは設計段階から組み込み、リーチを強化。",
-          "bgColor": "#FFDBB5"
+          "bgColor": "#FFDBB5",
+          "bgColorDark": "#402c1a"
         },
         {
           "title": "⏱️ 継続的サポート",
           "description": "長期的なパフォーマンスを保証するメンテナンスと更新。",
-          "bgColor": "#B8E0E5"
+          "bgColor": "#B8E0E5",
+          "bgColorDark": "#1a2b38"
         }
       ]
     },
