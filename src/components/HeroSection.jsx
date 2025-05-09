@@ -8,20 +8,30 @@ import { useTranslation } from 'react-i18next'
 const effects = ['typewriter', 'scramble', 'buble', 'pop']
 
 export default function HeroSection() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [mainText, setMainText] = useState('')
   const [effect, setEffect] = useState('typewriter')
   const [showSecondary, setShowSecondary] = useState(false)
   const [showButton, setShowButton] = useState(false)
   const [showLogo, setShowLogo] = useState(false)
 
+  // Sécurise les textes récupérés
+  const getSafeText = (input, fallback = '') => {
+    if (!input || typeof input !== 'string' || input.trim().length < 2) return fallback
+    return input
+  }
+
   useEffect(() => {
     const phrases = t('hero.mojo', { returnObjects: true })
-    const randomIndex = Math.floor(Math.random() * phrases.length)
-    const randomEffect = effects[Math.floor(Math.random() * effects.length)]
-    setMainText(phrases[randomIndex])
-    setEffect(randomEffect)
-  }, [t]) // re-trigger si la langue change
+    if (Array.isArray(phrases) && phrases.length > 0) {
+      const randomIndex = Math.floor(Math.random() * phrases.length)
+      const randomEffect = effects[Math.floor(Math.random() * effects.length)]
+      setMainText(getSafeText(phrases[randomIndex], t('hero.fallbackTitle')))
+      setEffect(randomEffect)
+    } else {
+      setMainText(t('hero.fallbackTitle'))
+    }
+  }, [t])
 
   useEffect(() => {
     if (showSecondary) {
@@ -33,6 +43,9 @@ export default function HeroSection() {
       }
     }
   }, [showSecondary])
+
+  const subtitle = getSafeText(t('hero.subtitle'))
+  const cta = getSafeText(t('hero.cta'))
 
   return (
     <header
@@ -56,10 +69,11 @@ export default function HeroSection() {
           className="mb-8"
           style={{ minHeight: '2.75rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
         >
-          {showSecondary && (
+          {showSecondary && subtitle && (
             <Subtitle>
               <Typewriter
-                text={t('hero.subtitle')}
+                key={i18n.language + subtitle}
+                text={subtitle}
                 speed={30}
                 hideCursor={true}
               />
@@ -68,17 +82,17 @@ export default function HeroSection() {
         </div>
 
         <div className="h-[3.5rem] flex items-center justify-center">
-          <a
-            href="#contact"
-            role="button"
-            aria-label="Aller au formulaire de contact"
-            className={`inline-block z-50 bg-[#6EAD8C] hover:bg-green-800 dark:bg-green-700 dark:hover:bg-green-600 px-8 py-4 mb-6 rounded-full shadow-lg transition duration-300 ${
-              showButton ? 'opacity-100' : 'opacity-0 pointer-events-none'
-            }`}
-            style={{ transition: 'opacity 0.2s ease-in' }}
-          >
-            <ButtonText>{t('hero.cta')}</ButtonText>
-          </a>
+          {showButton && cta && (
+            <a
+              href="#contact"
+              role="button"
+              aria-label="Aller au formulaire de contact"
+              className="inline-block z-50 bg-[#6EAD8C] hover:bg-green-800 dark:bg-green-700 dark:hover:bg-green-600 px-8 py-4 mb-6 rounded-full shadow-lg transition duration-300 opacity-100"
+              style={{ transition: 'opacity 0.2s ease-in' }}
+            >
+              <ButtonText>{cta}</ButtonText>
+            </a>
+          )}
         </div>
       </div>
 

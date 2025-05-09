@@ -3,6 +3,11 @@ import React, { useState, useEffect } from 'react'
 export default function Pop3DText({ text, delay = 60, onComplete }) {
   const [visibleLetters, setVisibleLetters] = useState(0)
 
+  // 🔁 Reset animation when text changes
+  useEffect(() => {
+    setVisibleLetters(0)
+  }, [text])
+
   useEffect(() => {
     if (visibleLetters < text.length) {
       const timeout = setTimeout(() => {
@@ -14,7 +19,6 @@ export default function Pop3DText({ text, delay = 60, onComplete }) {
     }
   }, [visibleLetters, text.length, delay, onComplete])
 
-  // Découpe par mots pour éviter les césures
   const words = text.split(' ')
 
   return (

@@ -7,6 +7,13 @@ export default function ScrambleText({ text, speed = 60, onComplete }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [tempChar, setTempChar] = useState('')
 
+  // 🔁 Reset animation when text changes
+  useEffect(() => {
+    setDisplayed('')
+    setCurrentIndex(0)
+    setTempChar('')
+  }, [text])
+
   useEffect(() => {
     if (currentIndex >= text.length) {
       if (onComplete) onComplete()

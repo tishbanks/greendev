@@ -3,6 +3,11 @@ import React, { useState, useEffect } from 'react'
 export default function BubbleText({ text, delay = 45, onComplete }) {
   const [visibleLetters, setVisibleLetters] = useState(0)
 
+  // 🔁 Reset when text changes
+  useEffect(() => {
+    setVisibleLetters(0)
+  }, [text])
+
   useEffect(() => {
     if (visibleLetters < text.length) {
       const timeout = setTimeout(() => {

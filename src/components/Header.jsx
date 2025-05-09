@@ -1,4 +1,3 @@
-// ... imports inchangés ...
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import clsx from 'clsx'
@@ -7,6 +6,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import i18n from 'i18next'
 import ThemeToggle from './ThemeToggle'
+import LangSelector from './LangSelector'
+
 
 const LANGUAGES = [
   { code: 'fr', label: '🇫🇷' },
@@ -20,6 +21,7 @@ export default function Header() {
   const [visible, setVisible] = useState(true)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const [showLangOptions, setShowLangOptions] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -60,7 +62,7 @@ export default function Header() {
         animate={{ y: visible ? 0 : -80, opacity: visible ? 1 : 0 }}
         transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
         className={clsx(
-          'fixed top-0 left-0 w-full z-[9999] h-auto min-h-[52px] backdrop-blur-md border-b border-green-200 shadow-sm bg-white  text-green-900 transition-transform duration-500 ease-in-out will-change-transform',
+          'fixed top-0 left-0 w-full z-[9999] h-auto min-h-[52px] backdrop-blur-md border-b border-green-200 shadow-sm bg-white text-green-900 transition-transform duration-500 ease-in-out will-change-transform',
           visible ? 'pointer-events-auto' : 'pointer-events-none'
         )}
       >
@@ -75,21 +77,9 @@ export default function Header() {
                 {item.label}
               </NavItem>
             ))}
-            <div className="flex gap-2 ml-4 text-xl">
-              {LANGUAGES.map(({ code, label }) => (
-                <button
-                  key={code}
-                  onClick={() => i18n.changeLanguage(code)}
-                  className={`transition hover:scale-110 ${
-                    i18n.language === code ? 'opacity-100' : 'opacity-60'
-                  }`}
-                  aria-label={`Langue : ${code}`}
-                >
-                  {label}
-                </button>
-              ))}
-              <ThemeToggle />
-            </div>
+            <LangSelector />
+
+            <ThemeToggle />
           </nav>
 
           <div className="md:hidden">
