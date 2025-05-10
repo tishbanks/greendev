@@ -8,6 +8,7 @@ import FadeInSection from '../components/FadeInSection'
 import ParallaxSection from '../components/ParallaxSection'
 import ServicesSection from '../components/ServicesSection'
 import { useTranslation } from 'react-i18next'
+import CreaSection from '../components/CreaSection'
 
 
 export default function LandingPage() {
@@ -29,10 +30,10 @@ export default function LandingPage() {
         <HeroSection />
 
 
-<ParallaxSection imageUrl="/images/lehavre.jpg">
-  <h2 className="text-4xl font-bold mb-4">{t('parallax.title')}</h2>
-  <p className="text-lg">{t('parallax.description')}</p>
-</ParallaxSection>
+          <ParallaxSection imageUrl="/images/lehavre.jpg">
+            <h2 className="text-4xl font-bold mb-4">{t('parallax.title')}</h2>
+            <p className="text-lg">{t('parallax.description')}</p>
+          </ParallaxSection>
 
 
 
@@ -48,6 +49,13 @@ export default function LandingPage() {
 
         </FadeInSection>
 
+        </div>
+
+
+        <div id="crea">
+          <FadeInSection>
+            <CreaSection />
+          </FadeInSection>
         </div>
 
         <div id="why">

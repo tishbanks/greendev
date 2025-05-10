@@ -11,6 +11,10 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         manrope: ['Manrope', 'sans-serif'],
       },
+      flex: {
+        '0.8': '0.8 1 0%',
+        '2': '2 1 0%',
+      },
     },
   },
   plugins: [],

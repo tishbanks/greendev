@@ -53,6 +53,7 @@ export default function Header() {
     { href: '#services', label: t('nav.services'), type: 'anchor' },
     { href: '/#why', label: t('nav.why'), type: 'anchor' },
     { href: '/#contact', label: t('nav.contact'), type: 'anchor' },
+    { href: '/#crea', label: t('nav.crea'), type: 'anchor' },
   ]
 
   return (
